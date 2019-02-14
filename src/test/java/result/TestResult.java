@@ -41,7 +41,7 @@ public class TestResult {
 
 		assertEquals("통화하기", phone.call());
 		assertEquals("스트리밍", ((MusicPhone) phone).playMusic());
-		assertEquals("앱실행", ((SmartPhone) phone).runApp());
+		assertEquals("앱실행", ((SmartPhone) phone).runApp(null));
 	}
 	
 	@Test
